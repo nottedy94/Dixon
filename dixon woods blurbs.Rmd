@@ -24,6 +24,8 @@ knitr::opts_chunk$set(echo=FALSE,
                       warning=FALSE)
 
 library(papaja)
+library(rsconnect)
+library(packrat)
 
 papaja::r_refs(file="dixon.bib")
 
@@ -44,7 +46,7 @@ knitr::include_graphics("galax1.png")
 
 ## Common names; Wandflower, Wandplant, and Beetleweed.
 
-*Galax unceolata* is an herbaceous perennial plant native to North America, growing mainly in the Appalachian Mountains up to 1500 meters (4921 feet) in elevation. This species is the sole representative of the plant family Diapensiaceae. This plant grows mainly in the understory of shaded forests and is composed of a rosette of leathery cardioid (heart) shaped. The leaves are serrated along the margin and will turn brown during the winter. Galax flowers in late sprignt to early summer along a single spike-like stem. Each flower is composed of five petals and are white in color. The fruit are capsules containing multiple seeds. The leaves persist throughout the year and are commonly harvested and used as an herbal remedy for cuts and kidney ailments. Although Galax is secure in the Southern Appalachian region, there are concerns about overharvesting particularly in the northern extent of its range.[@predny.2005]
+*Galax unceolata* is an herbaceous perennial plant native to North America, growing mainly in the Appalachian Mountains up to 1500 meters (4921 feet) in elevation. This species is the sole representative of the plant family Diapensiaceae. This plant grows mainly in the understory of shaded forests and is composed of a rosette of leathery cardioid (heart) shaped. The leaves are serrated along the margin and will turn brown during the winter. Galax flowers in late sprignt to early summer along a single spike-like stem. Each flower is composed of five petals and are white in color. The fruit are capsules containing multiple seeds. The leaves persist throughout the year and are commonly harvested and used as an herbal remedy for cuts and kidney ailments. Although Galax is secure in the Southern Appalachian region, there are concerns about overharvesting particularly in the northern extent of its range.[@galax]
 
 Further reading: [Galax (*Galax unceolata*): An Annotated Bibliography](https://www.srs.fs.usda.gov/pubs/gtr/gtr_srs087.pdf)
 
@@ -81,6 +83,30 @@ knitr::include_graphics("M uniflora.jpg")
 *Monotropa uniflora* is an uncommon perennial wildflower that grows to height between 10 and 30 cm. *M uniflora* blooms in early summer through early autumn in mature, moist, shaded forests. This plant is entirely translucent white while sometimes appearing in a pale pinkish-hue. This is because the plant is parasitic in nature and obtains its nutrients from photosynthetic trees (commonly Beech; *Fagus sp.*) connected via fungal mycorrhizal networks. The leaves that arise directly from the peduncle (flower stalk) are scale-like and can be flecked black. As the name suggests (*M uniflora*), this plant has single-flowers that emerge as pendants (pointed downward). Once the flower matures it erects perpendicular to the stalk. The fruits are capsules with seeds that release through slits along the length of the capsule. The flowers can persist following seed dispersal however the flesh may become desiccated and look brown or black. [@uniflora]
  
 Further reading: [*Monotropa uniflora* - Ghost Plant, Indian Pipe](https://www.fs.fed.us/wildflowers/beauty/mycotrophic/monotropa_uniflora.shtml)
+
+
+# *Pinus rigida*
+
+```{r rigida, echo=FALSE}
+#| fig.cap = "*Pinus rigida* bark (Left). Cone life stages (Right), photo courtesy of C. N. Elliot.",
+#| out.width = "50%",
+#| fig.align = "center",
+#| fig.show="hold"
+
+
+knitr::include_graphics("p rigida bark.jpg")
+
+knitr::include_graphics("pitch pine cones.png")
+
+
+```
+
+## Common names; Pitch pine
+
+*Pinus rigida* is mainly found in the southern areas of the northeastern United States. These trees are found in environments other species may find unfavorable (i.e. acidic, sandy, and low nutrient soils). The needles of this tree come in fascicles of three, grow to a length of 6-13 cm (2.25-5 inches), and are often slightly twisted. The cones of this tree are serotinous, meaning, they need to be exposed to an internal temperature of 100°C/212°F and can survive external temperatures as high as 421°C/790°F. The trunks of pitch pine are usually straight and covered in large, thick, irregular plates of bark. The thick bark provides an adaptation against fire by insulating the sensitive cambium layer from heat. It also has a remarkable regenerative ability, should it be damaged by cuts or fire, it can resprout using epicormic shoots (grow from the bark). Pitch pine is a pioneer species in abandoned agricultural or pasture land and is replaced by hardwoods, spruce, or other pines in the absence of disturbance. [@rigida]
+
+
+Further reading: [*Pinus rigida*](https://www.fs.fed.us/database/feis/plants/tree/pinrig/all.html#Cone%20survival%20and%20seedling%20establishment:)
 
 
 # References
