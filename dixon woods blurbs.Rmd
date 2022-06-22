@@ -3,10 +3,11 @@ title: "Dixon Woods"
 subtitle: "Plant species and descriptions."
 author: "Ted Hillert"
 output:
-  bookdown::html_document2:
+  bookdown::word_document2:
     number_sections: false
     toc: yes
     self-contained: yes
+    always_allow_html: yes
     
     
 bibliography:
@@ -49,6 +50,23 @@ knitr::include_graphics("galax1.png")
 *Galax unceolata* is an herbaceous perennial plant native to North America, growing mainly in the Appalachian Mountains up to 1500 meters (4921 feet) in elevation. This species is the sole representative of the plant family Diapensiaceae. This plant grows mainly in the understory of shaded forests and is composed of a rosette of leathery cardioid (heart) shaped. The leaves are serrated along the margin and will turn brown during the winter. Galax flowers in late sprignt to early summer along a single spike-like stem. Each flower is composed of five petals and are white in color. The fruit are capsules containing multiple seeds. The leaves persist throughout the year and are commonly harvested and used as an herbal remedy for cuts and kidney ailments. Although Galax is secure in the Southern Appalachian region, there are concerns about overharvesting particularly in the northern extent of its range.[@galax]
 
 Further reading: [Galax (*Galax unceolata*): An Annotated Bibliography](https://www.srs.fs.usda.gov/pubs/gtr/gtr_srs087.pdf)
+
+
+# *Gaylussacia spp.*
+
+```{r gayluss}
+#| fig.cap = "Foliage of Gaylussacia in a sun fleck.",
+#| out.width = "50%",
+#| fig.align = "center"
+
+knitr::include_graphics("galuss.jpg")
+```
+
+## Common names; huckleberry and dangleberry
+
+*Gaylussacia* is a genus of flowering plants that contains about 50 different species in the Ericaceae family. These deciduous or evergreen shrubs (depending on species) are a common component of oak-heath forests and are native the the Americas. These plant species are used as food by Lepidoptera (butterflies and moths) larvae, including *Coleophora gaylussaciella* which feeds exclusively on these plants. The fruits are edible to humans and are dark purple-black colored berries similar to blueberries (*Vacciunium spp.*). [@gaylussacia]
+
+Further reading: [*Gaylussacia baccata* — black huckleberry](https://www.fs.fed.us/wildflowers/beauty/mycotrophic/monotropa_hypopitys.shtml)
 
 
 # *Monotropa hypopitys*
