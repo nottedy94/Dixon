@@ -3,11 +3,11 @@ title: "Dixon Woods"
 subtitle: "Plant species and descriptions."
 author: "Ted Hillert"
 output:
-  bookdown::word_document2:
+  bookdown::html_document2:
     number_sections: false
     toc: yes
     self-contained: yes
-    always_allow_html: yes
+    #always_allow_html: yes
     
     
 bibliography:
@@ -34,6 +34,47 @@ options(knitr.kable.NA="")
 
 ```
 
+# *Acer x freemanii*
+
+```{r maple}
+#| fig.cap = "*Acer* leaves (left), close-up (right).",
+#| out.width = "50%",
+#| fig.align = "center",
+#| fig.show="hold"
+
+knitr::include_graphics("acer1.jpg")
+
+knitr::include_graphics("redmap.jpg")
+
+```
+
+## Common names; Freeman maple and Autumn blaze maple
+
+*Acer x freemanii* is a naturally occuring hybrid between *Acer rubrum* (Red Maple) and *Acer saccharinum* (Silver Maple). This tree in named after the hybridizer Oliver M. Freeman of the U.s. National Arboretum. The fall foliage of this tree colors orange-red and is often used as a street tree in urban areas. This fall foliage can last for several weeks before shedding for the winter. In winter, the usually smooth, thin, gray bark furrows with age. This tree can grow up to 60 feet tall and 40 feet wide in the foliage. As a full sun and partial shade tolerant plant, it is easily grown in well-fdraining moist, organic-rich, and slightly acidic soils such as those in Dixon. [@acer; @acer2]
+
+Further reading; [*Acer x freemanii*](https://plants.ces.ncsu.edu/plants/acer-x-freemanii/), [*Acer x freemanii*](https://en.wikipedia.org/w/index.php?title=Acer_%C3%97_freemanii&oldid=1049718728)
+
+# *Castanea dentata*
+
+```{r cast}
+#| fig.cap = "*Castanea dentata* leaves (left), flowers on catkins (right).",
+#| out.width = "50%",
+#| fig.align = "center",
+#| fig.show="hold"
+
+knitr::include_graphics("castden.jpg")
+
+knitr::include_graphics("castflower.jpg")
+
+```
+
+## Common names; American Chestnut and Chestnut
+
+*Castenea dantata*, was once prolific across the Eastern U.S., has faced rapid decline of it's historic range following introduction of pathogenic fungus in New York City in 1904. The chestnut blight, introduced by imported Chinese chestnuts (*Castanea mollissima*), prevents American chestnuts from reaching maturity. Nowadays, reprouting trees from stumps can grow up to 20 feet tall and produce some nuts before succumbing to the blight. Work by the American Chestnut Society is being done to produce blight resistant trees by hybridizing American chestnut with Chinese chestnut. [@ACF]
+
+Healthy American chestnuts can grow to be 50-75 feet tall and an equal width of foliage. The leaves can grow between 4 and 9 inches long at a width of 1.5 to 3 inches. They are dark green leaves with coarse-toothed margin and bristly tips. In fall the leaves turn a yellow-gold. Chestnuts flower from June to July, producing yellowish-white flowers on catkins (a cylindrical flower cluster). [@castenea]
+
+Further reading; [American Chestnut Foundation](https://acf.org), [*Castanea dentata*](https://plants.ces.ncsu.edu/plants/castanea-dentata/)
 
 # *Galax unceolata*
 
@@ -52,12 +93,14 @@ knitr::include_graphics("galax1.png")
 Further reading: [Galax (*Galax unceolata*): An Annotated Bibliography](https://www.srs.fs.usda.gov/pubs/gtr/gtr_srs087.pdf)
 
 
+
 # *Gaylussacia spp.*
 
 ```{r gayluss}
 #| fig.cap = "Foliage of Gaylussacia in a sun fleck.",
 #| out.width = "50%",
-#| fig.align = "center"
+#| fig.align = "center",
+
 
 knitr::include_graphics("galuss.jpg")
 ```
@@ -69,22 +112,73 @@ knitr::include_graphics("galuss.jpg")
 Further reading: [*Gaylussacia baccata* — black huckleberry](https://www.fs.fed.us/wildflowers/beauty/mycotrophic/monotropa_hypopitys.shtml)
 
 
-# *Monotropa hypopitys*
 
-```{r hypopitys}
-#| fig.cap = "*Monotropa hypositys* flowers. Photo by Hugh and Carol Nourse.",
+# *Iris sanguinea*
+
+```{r iris}
+#| fig.cap = "*Iris sanguinea* in late bloom",
+#| out.width = "50%",
+#| fig.align = "center",
+#| fig.show="hold"
+
+knitr::include_graphics("irissan.jpg")
+
+```
+
+## Common names; Japanese Iris and Siberian Iris
+
+*Iris sanguinea* is native to eastern Asia, hence the common names, but have since been naturalized to temperate regions across the globe. Many plant of this genus are thought to be poisonous if ingested, especially the roots, as such they are resistant to deer and rabbits. Iris can grow in virtually any hardiness region of the U.S. but particularly enjoys deep meadows, near riparian areas, and on forest edges. The soils for this plant should be well draining, with slight acidity and plenty of organic matter. It prefers full sun but is tolerant of partial shade. It flowers between May and July, producing blue, white, or purple-lavendar showy blooms. The flower goes to seed in July through September following flower blooms. The seeds, themselves, are ellipsoidal capsules with with flat seeds. [@iris; @iris2]
+
+Further reading;[*Iris sanguinea*](https://plants.ces.ncsu.edu/plants/iris-sanguinea/),
+[Iris sanguinea - Donn. ex Hornem.](https://pfaf.org/user/Plant.aspx?LatinName=Iris+sanguinea)
+
+# *Kalmia latifolia*
+
+```{r kalmia}
+#| fig.cap = "*Kalmia latifolia* bark (top left), fallen white flowers (top right), and tree with foliage in a sun fleck (bottom)",
+#| out.width = "50%",
+#| fig.align = "center",
+#| fig.show="hold"
+
+knitr::include_graphics("kalmia1.jpg")
+
+knitr::include_graphics("kalmlat.jpg")
+
+knitr::include_graphics("kallat.jpg")
+
+```
+
+## Common names; Calico bush, Ivy bush, Laurel, Mountain ivy, Mountain laurel, Sheepkill, and Spoonwood
+
+*Kalmia latifolia* is a broadleaf evergreen shrub that branches often into a thicket and sometimes as a small tree with a crooked trunk. Laurel flowers in late April to July for several weeks in a range of colors from pink or purple/lavender to white. Each flower is cup-shaped with 4-5 petals and begin fruiting in Fall. Fruits are capsules that are brown or copper in color and available from September to October. Laurel is highly poisonous causing skeletal muscle and cardiac muscle function, as well as nerve function. Laurel is commonly mistaken for *Rhododendron catawbiense* due to similar leaf structure, laurel has smaller leaves and rhododendron have larger leaves. Likewise, as laurel ages the bark begins to peel off in long strips. The two are otherwise similar in growth requirements, i.e. full sun or partial shade, acidic soils with good drainage and high organic matter. [@kal; @kal2; @kal3]
+
+Further reading;[*Kalmia latifolia*](https://www.wildflower.org/plants/result.php?id_plant=KALA), [WILDFLOWERS 101: MOUNTAIN LAUREL AND RHODODENDRON](https://www.smokiesinformation.org/news/wildflowers-101-mountain-laurel-and-rhododendron.html#:~:text=The%20laurel%20has%20the%20smaller,leaves%20droop%20and%20curl%20back.), [*Kalmia latifolia*](https://plants.ces.ncsu.edu/plants/kalmia-latifolia/)
+
+# *Laetiporous sulphureus*
+
+```{r chicken}
+#| fig.cap = "*Galax unceolata* in bloom.",
 #| out.width = "50%",
 #| fig.align = "center"
 
-knitr::include_graphics("M hypopitys.jpg")
+knitr::include_graphics("chicken.jpg")
+
 ```
 
-## Common names; Dutchman's Pipe, false beech-drops, pinesap, and yellow bird's-nest
+## Common names; Chicken-of-the-woods, Crab-of-the-woods, Sulphur polypore, and sulphur shelf
 
-*Monotropa hypopitys* is an herbaceous perennial plant that grows to height between 10 and 35 cm. In North America, *M hypopitys* flowers from May to October in mature, moist, shaded forests often under pine trees ("hypo" - under, "pitys" - pine). Each plant produces a single unbranched inflorescence that are analogous (similar in function but different evolution) to adventitious roots that appear pale yellowish-white to red-tinged. This is because the plant is parasitic in nature and obtains its nutrients from photosynthetic trees  connected via fungal mycorrhizal networks. The leaves, or bracts, are scale-like and cover most of the inflorescence. The flowers of this plant emerge as pendants and become erect when the fruit matures. Plants that flower in the summer tend to be yellow and sparsely hairy, while those blooming in autumn tend to be red and densely hairy. It is proposed that the summer blooms are self-pollinating. [@hypopitys] 
+# *Liriodendron tulipifera*
 
-Further reading: [*Monotropa hypopitys* - Pinesap, Dutchman's Pipe](https://www.fs.fed.us/wildflowers/beauty/mycotrophic/monotropa_hypopitys.shtml)
+```{r tulippop}
+#| fig.cap = "*Galax unceolata* in bloom.",
+#| out.width = "50%",
+#| fig.align = "center"
 
+knitr::include_graphics("tulip.jpg")
+
+```
+
+## Common names; Blue-poplar, Tulip-poplar, Tulip tree, Yellow-poplar, Yellow wood
 
 # *Monotropa uniflora*
 
@@ -102,6 +196,46 @@ knitr::include_graphics("M uniflora.jpg")
  
 Further reading: [*Monotropa uniflora* - Ghost Plant, Indian Pipe](https://www.fs.fed.us/wildflowers/beauty/mycotrophic/monotropa_uniflora.shtml)
 
+
+
+# *Onoclea struthiopteris*
+
+```{r shutfern}
+#| fig.cap = "*Galax unceolata* in bloom.",
+#| out.width = "50%",
+#| fig.align = "center"
+
+knitr::include_graphics("fern.jpg")
+
+```
+
+## Common names; Fiddlehead fern, Ostrich-feather fern, Ostrich fern, Shuttlecock fern
+
+# *Patera clarki*
+
+```{r snaily}
+#| fig.cap = "*Galax unceolata* in bloom.",
+#| out.width = "50%",
+#| fig.align = "center"
+
+knitr::include_graphics("snail.jpg")
+
+```
+
+## Common names; Dwarf proud globe 
+
+# *Pinus echinata*
+
+```{r shpine}
+#| fig.cap = "*Galax unceolata* in bloom.",
+#| out.width = "50%",
+#| fig.align = "center"
+
+knitr::include_graphics("shortpine.jpg")
+
+```
+
+## Common names; Arkansas soft pine, Old field pine, Shortleaf pine, Shortleaf yellow pine, Shortstraw pine, Southern yellow pine, and Yellow pine
 
 # *Pinus rigida*
 
@@ -127,5 +261,48 @@ knitr::include_graphics("pitch pine cones.png")
 Further reading: [*Pinus rigida*](https://www.fs.fed.us/database/feis/plants/tree/pinrig/all.html#Cone%20survival%20and%20seedling%20establishment:)
 
 
+
+# *Quercus robur*
+
+```{r engoak}
+#| fig.cap = "*Galax unceolata* in bloom.",
+#| out.width = "50%",
+#| fig.align = "center"
+
+knitr::include_graphics("english.jpg")
+
+```
+
+## Common names; English Oak, Oak, Truffle Oak
+
+# *Quercus rubra*
+
+```{r redoaks}
+#| fig.cap = "*Galax unceolata* in bloom.",
+#| out.width = "50%",
+#| fig.align = "center"
+
+knitr::include_graphics("redoak1.jpg")
+
+knitr::include_graphics("redoak.jpg")
+
+```
+
+## Common names; Common red oak, Gray oak, Eastern red oak, Mountain red oak, and Northern red oak
+
+
 # References
+
+
+
+
+
+
+
+
+
+
+
+
+
 
