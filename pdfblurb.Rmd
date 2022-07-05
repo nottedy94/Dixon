@@ -1,13 +1,13 @@
 ---
 title: "Dixon Woods"
-subtitle: "Plant species and descriptions."
-author: "Ted Hillert"
-output:
-  bookdown::html_document2:
+subtitle: "Plant species and descriptions"
+author: "J. Ted Hillert"
+output: 
+  pdf_document:
     number_sections: false
-    toc: yes
-    self-contained: yes
-    #always_allow_html: yes
+    toc: TRUE
+    fig_width: 3
+    fig_height: 2
     
     
 bibliography:
@@ -35,13 +35,14 @@ papaja::r_refs(file="dixon.bib")
 options(knitr.kable.NA="")
 
 ```
+\newpage
 
 # *Acer rubrum*
 
 ## Common names; Carolina maple, Curled maple, Red maple, Scarlet maple, Soft maple, Swamp maple, and Water maple 
 
 ```{r maple}
-#| fig.cap = "*Acer rubrum* leaves (left), floral bloom (right) (Illustration courtesy of Patterson Clark).",
+#| fig.cap = "*Acer rubrum* leaves (bottom), floral bloom (top) (Illustration courtesy of Patterson Clark).",
 #| out.width = "50%",
 #| fig.align = "center",
 #| fig.show="hold"
@@ -56,13 +57,14 @@ knitr::include_graphics("redmap.jpg")
 
 Further reading; [*Acer rubrum*](https://plants.ces.ncsu.edu/plants/acer-rubrum/), [*Acer rubrum*](https://www.wildflower.org/plants/result.php?id_plant=acru)
 
+\newpage
 
 # *Castanea dentata*
 
 ## Common names; American Chestnut and Chestnut
 
 ```{r cast}
-#| fig.cap = "*Castanea dentata* leaves (left), flowers on catkins (right).",
+#| fig.cap = "*Castanea dentata* leaves (top), flowers on catkins (bottom).",
 #| out.width = "50%",
 #| fig.align = "center",
 #| fig.show="hold"
@@ -79,6 +81,7 @@ Healthy American chestnuts can grow to be 50-75 feet tall and an equal width of 
 
 Further reading; [American Chestnut Foundation](https://acf.org), [*Castanea dentata*](https://plants.ces.ncsu.edu/plants/castanea-dentata/)
 
+\newpage
 
 # *Galax unceolata*
 
@@ -96,6 +99,7 @@ knitr::include_graphics("galax1.png")
 
 Further reading; [Galax (*Galax unceolata*): An Annotated Bibliography](https://www.srs.fs.usda.gov/pubs/gtr/gtr_srs087.pdf)
 
+\newpage
 
 # *Gaylussacia spp.*
 
@@ -114,6 +118,7 @@ knitr::include_graphics("galuss.jpg")
 
 Further reading; [*Gaylussacia baccata* — black huckleberry](https://www.fs.fed.us/wildflowers/beauty/mycotrophic/monotropa_hypopitys.shtml)
 
+\newpage
 
 # *Iris sanguinea*
 
@@ -134,13 +139,14 @@ knitr::include_graphics("irissan.jpg")
 Further reading; [*Iris sanguinea*](https://plants.ces.ncsu.edu/plants/iris-sanguinea/),
 [Iris sanguinea - Donn. ex Hornem.](https://pfaf.org/user/Plant.aspx?LatinName=Iris+sanguinea)
 
+\newpage
 
 # *Kalmia latifolia*
 
 ## Common names; Calico bush, Ivy bush, Laurel, Mountain ivy, Mountain laurel, Sheepkill, and Spoonwood
 
 ```{r kalmia}
-#| fig.cap = "*Kalmia latifolia* bark (top left), pink flowers in bloom (top right).",
+#| fig.cap = "*Kalmia latifolia* bark (top), pink flowers in bloom (bottom).",
 #| out.width = "50%",
 #| fig.align = "center",
 #| fig.show="hold"
@@ -156,6 +162,7 @@ knitr::include_graphics("kalmlat.jpg")
 
 Further reading; [*Kalmia latifolia*](https://www.wildflower.org/plants/result.php?id_plant=KALA), [WILDFLOWERS 101: MOUNTAIN LAUREL AND RHODODENDRON](https://www.smokiesinformation.org/news/wildflowers-101-mountain-laurel-and-rhododendron.html#:~:text=The%20laurel%20has%20the%20smaller,leaves%20droop%20and%20curl%20back.), [*Kalmia latifolia*](https://plants.ces.ncsu.edu/plants/kalmia-latifolia/)
 
+\newpage
 
 # *Laetiporous sulphureus*
 
@@ -175,12 +182,14 @@ knitr::include_graphics("chicken.jpg")
 Further reading; [Laetiporus sulphureus (Bull.) Murrill - Chicken-of-the-Woods](https://www.first-nature.com/fungi/laetiporus-sulphureus.php), [Chasing the Chicken of the Woods (Facts, Identification, and Recipes)](https://www.mushroom-appreciation.com/chicken-of-the-woods.html), 
 [Laetiporus sulphureus](https://www.mushroomexpert.com/laetiporus_sulphureus.html)
 
+\newpage
+
 # *Liriodendron tulipifera*
 
 ## Common names; Blue-poplar, Tulip-poplar, Tulip tree, Yellow-poplar, Yellow wood
 
 ```{r tulippop}
-#| fig.cap = "*Liriodendron tulipifera* leaves in a sun fleck (left), floral bloom (right).",
+#| fig.cap = "*Liriodendron tulipifera* leaves in a sun fleck (top), floral bloom (bottom).",
 #| out.width = "50%",
 #| fig.align = "center",
 #| fig.show="hold"
@@ -195,6 +204,7 @@ knitr::include_graphics("tulipflower.jpg")
 
 Further reading; [Liriodendron tulipifera](https://plants.ces.ncsu.edu/plants/liriodendron-tulipifera/), [Liriodendron tulipifera](https://www.wildflower.org/plants/result.php?id_plant=LITU)
 
+\newpage
 
 # *Monotropa uniflora*
 
@@ -212,6 +222,7 @@ knitr::include_graphics("M uniflora.jpg")
  
 Further reading; [*Monotropa uniflora* - Ghost Plant, Indian Pipe](https://www.fs.fed.us/wildflowers/beauty/mycotrophic/monotropa_uniflora.shtml)
 
+\newpage
 
 # *Onoclea struthiopteris*
 
@@ -231,6 +242,8 @@ knitr::include_graphics("fern.jpg")
 Futher reading; [*Matteuccia struthiopteris*](https://www.wildflower.org/plants/result.php?id_plant=MAST) (although a different latin name, this is synonymous with *O. struthiopteris*),
 [*Onoclea struthiopteris*](https://plants.ces.ncsu.edu/plants/onoclea-struthiopteris/)
 
+\newpage
+
 # *Patera clarki nantahala*
 
 ## Common names; Noonday globe 
@@ -246,12 +259,14 @@ knitr::include_graphics("snail.jpg")
 
 *Patera clarki* is a land snail from the Polygyridae family that is native to the southeastern U.S., specifically; Georgia, North and South Carolina, and Tennessee. There is little information regarding the diet, life cycle, or interspecific interactions due to its rarity and limited distribution.  In July of 1978, US Fish and Wildlife placed the noonday globe snail on the Federal Endangered and Threatened Species List, with a fine of as much as $50,000 and one year in jail for taking one of these snails. [@snail]
 
+\newpage
+
 # *Pinus echinata*
 
 ## Common names; Arkansas soft pine, Old field pine, Shortleaf pine, Shortleaf yellow pine, Shortstraw pine, Southern yellow pine, and Yellow pine
 
 ```{r shpine}
-#| fig.cap = "Close-up of Short pine needles (top left), female seed cone (top right), male pollen cone (bottom). Cone photos courtesy of LSU School of Renewable Natural Resources [@peccone].",
+#| fig.cap = "Close-up of Short pine needles (top), female seed cone (middle), male pollen cone (bottom). Cone photos courtesy of LSU School of Renewable Natural Resources [@peccone].",
 #| out.width="50%",
 #| fig.align="center",
 #| fig.show="hold"
@@ -268,12 +283,14 @@ knitr::include_graphics("pinecma.jpg")
 
 Further reading; [*Pinus echinata* (Shortleaf Pine)](https://www.gardenia.net/plant/pinus-echinata), [*Pinus echinata*](https://plants.ces.ncsu.edu/plants/pinus-echinata/)
 
+\newpage
+
 # *Pinus rigida*
 
 ## Common names; Pitch pine
 
 ```{r rigida, echo=FALSE}
-#| fig.cap = "*Pinus rigida* bark (Left). Cone life stages (Right), photo courtesy of C. N. Elliot.",
+#| fig.cap = "*Pinus rigida* bark (top). Cone life stages (bottom), photo courtesy of C. N. Elliot.",
 #| out.width = "50%",
 #| fig.align = "center",
 #| fig.show="hold"
@@ -290,6 +307,7 @@ knitr::include_graphics("pitch pine cones.png")
 
 Further reading; [*Pinus rigida*](https://www.fs.fed.us/database/feis/plants/tree/pinrig/all.html#Cone%20survival%20and%20seedling%20establishment:)
 
+\newpage
 
 # *Quercus robur*
 
@@ -308,6 +326,8 @@ knitr::include_graphics("english.jpg")
 
 Further reading; [*Quercus robur* (English Oak)](https://www.gardenia.net/plant/quercus-robur), [*Quercus robur*](https://plants.ces.ncsu.edu/plants/quercus-robur/)
 
+\newpage
+
 # *Quercus rubra*
 
 ## Common names; Common red oak, Gray oak, Eastern red oak, Mountain red oak, Northern red oak, and Red oak
@@ -325,6 +345,8 @@ knitr::include_graphics("redoak1.jpg")
 *Quercus rubra* is a  deciduous tree that  commonly reaches heights of 75 to 100 feet with a straight trunk and wide canopy (about 45 feet wide) on the upper 3/4ths of the tree. The bark is striped with long plates separated by deep furrows. The lobbed leaves are bristled at the tip and turn crimson, golden-orange, or russet colored in the Fall. This oak is very important lumber tree, as it is one of the fastest-growing (~24"/year), is easily transplanted, and endures both the cold and city conditions. This is a handsome tree for wildlife as it attracts songbirds, ground-nesting birds, butterflies, hummingbirds, and is a larval host for the Gray Hairstreak (*Strymon melinus*). As new foliage begins to grow, pale yellow-green blooms are not far off, usually April to May. [@redoak; @red2]
 
 Further reading; [Northern Red Oak](https://www.srs.fs.usda.gov/pubs/misc/ag_654/volume_2/quercus/rubra.htm), [*Quercus rubra*](https://www.wildflower.org/plants/result.php?id_plant=quru)
+
+\newpage
 
 # References
 
