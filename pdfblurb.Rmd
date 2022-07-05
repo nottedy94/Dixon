@@ -1,6 +1,6 @@
 ---
 title: "Dixon Woods"
-subtitle: "Plant species and descriptions"
+subtitle: "Plant species list and descriptions"
 author: "J. Ted Hillert"
 output: 
   pdf_document:
@@ -8,6 +8,13 @@ output:
     toc: TRUE
     fig_width: 3
     fig_height: 2
+header-includes:
+   - \usepackage{hyperref}
+   - \hypersetup{
+        colorlinks=true,
+        urlcolor=cyan,
+        linkcolor=cyan
+        }
     
     
 bibliography:
@@ -42,7 +49,7 @@ options(knitr.kable.NA="")
 ## Common names; Carolina maple, Curled maple, Red maple, Scarlet maple, Soft maple, Swamp maple, and Water maple 
 
 ```{r maple}
-#| fig.cap = "*Acer rubrum* leaves (bottom), floral bloom (top) (Illustration courtesy of Patterson Clark).",
+#| fig.cap = "Acer rubrum leaves (bottom), floral bloom (top) (Illustration courtesy of Patterson Clark).",
 #| out.width = "50%",
 #| fig.align = "center",
 #| fig.show="hold"
@@ -55,7 +62,7 @@ knitr::include_graphics("redmap.jpg")
 
 *Acer rubrum* is a perennial deciduous tree in Sapindaceae family (soapberry) that can grow up to 120 feet tall, but more commonly reaches up to 70 feet tall and 2.5 feet in diameter at breast height. This native tree is tolerant of a wide range of soils but prefers slightly acidic, moist and well-draining soil in partial shade to full sun. It is a cold tolerant tree that is fast-growing than Norway and Sugar maples but slower than Silver maple. The leaves of this maple are palmate (hand-shaped), lobed with serrate (toothed) margins, and a rounded cordate (heart-shaped) base. They are arranged opposite each other and will turn red or yellow in fall, also being some of the first trees to turn color. Red maples will flower once in the Spring and again in Winter, with the male trees displaying decorative red blooms. [@acer; @acer2]
 
-Further reading; [*Acer rubrum*](https://plants.ces.ncsu.edu/plants/acer-rubrum/), [*Acer rubrum*](https://www.wildflower.org/plants/result.php?id_plant=acru)
+Further reading; [Acer rubrum](https://plants.ces.ncsu.edu/plants/acer-rubrum/), [Acer rubrum](https://www.wildflower.org/plants/result.php?id_plant=acru)
 
 \newpage
 
@@ -64,7 +71,7 @@ Further reading; [*Acer rubrum*](https://plants.ces.ncsu.edu/plants/acer-rubrum/
 ## Common names; American Chestnut and Chestnut
 
 ```{r cast}
-#| fig.cap = "*Castanea dentata* leaves (top), flowers on catkins (bottom).",
+#| fig.cap = "Castanea dentata leaves (top), flowers on catkins (bottom).",
 #| out.width = "50%",
 #| fig.align = "center",
 #| fig.show="hold"
@@ -79,7 +86,7 @@ knitr::include_graphics("castflower.jpg")
 
 Healthy American chestnuts can grow to be 50-75 feet tall and an equal width of foliage. The leaves can grow between 4 and 9 inches long at a width of 1.5 to 3 inches, that are dark green with coarse-toothed margin and bristly tips. In fall the leaves turn a yellow-gold. Chestnuts flower from June to July, producing yellowish-white flowers on catkins (a cylindrical flower cluster). [@castenea]
 
-Further reading; [American Chestnut Foundation](https://acf.org), [*Castanea dentata*](https://plants.ces.ncsu.edu/plants/castanea-dentata/)
+Further reading; [American Chestnut Foundation](https://acf.org), [Castanea dentata](https://plants.ces.ncsu.edu/plants/castanea-dentata/)
 
 \newpage
 
@@ -88,7 +95,7 @@ Further reading; [American Chestnut Foundation](https://acf.org), [*Castanea den
 ## Common names; Wandflower, Wandplant, and Beetleweed.
 
 ```{r galax1}
-#| fig.cap = "*Galax unceolata* in bloom.",
+#| fig.cap = "Galax unceolata in bloom.",
 #| out.width = "50%",
 #| fig.align = "center"
 
@@ -97,7 +104,7 @@ knitr::include_graphics("galax1.png")
 
 *Galax unceolata* is an herbaceous perennial plant native to North America, growing mainly in the Appalachian Mountains up to 1500 meters (4921 feet) in elevation. This species is the sole representative of the plant family Diapensiaceae. This plant grows mainly in the understory of shaded forests and is composed of a rosette of leathery cardioid (heart) shaped leaves. The leaves are serrated along the margin and will turn brown during the winter. Galax flowers in late spring to early summer clustered along a single spike-like stem. Each individual flower is composed of five petals and are white in color. The leaves persist throughout the year and are commonly harvested and used as an herbal remedy for cuts and kidney ailments. Although Galax is secure in the Southern Appalachian region, there are concerns about over harvesting in the northern extent of its range. [@galax]
 
-Further reading; [Galax (*Galax unceolata*): An Annotated Bibliography](https://www.srs.fs.usda.gov/pubs/gtr/gtr_srs087.pdf)
+Further reading; [Galax (Galax unceolata): An Annotated Bibliography](https://www.srs.fs.usda.gov/pubs/gtr/gtr_srs087.pdf)
 
 \newpage
 
@@ -116,7 +123,7 @@ knitr::include_graphics("galuss.jpg")
 
 *Gaylussacia* is a genus of flowering plants that contains about 50 different species in the Ericaceae family. These deciduous or evergreen shrubs (depending on species) are a common component of oak-heath forests and are native to the Americas. These plant species are used as food by Lepidoptera (butterflies and moths) larvae, including *Coleophora gaylussaciella* which feeds exclusively on these plants. The fruits are edible to humans and are dark purple-black colored berries similar to blueberries (*Vacciunium spp.*). [@gaylussacia]
 
-Further reading; [*Gaylussacia baccata* — black huckleberry](https://www.fs.fed.us/wildflowers/beauty/mycotrophic/monotropa_hypopitys.shtml)
+Further reading; [Gaylussacia baccata — black huckleberry](https://www.fs.fed.us/wildflowers/beauty/mycotrophic/monotropa_hypopitys.shtml)
 
 \newpage
 
@@ -125,7 +132,7 @@ Further reading; [*Gaylussacia baccata* — black huckleberry](https://www.fs.fe
 ## Common names; Japanese Iris and Siberian Iris
 
 ```{r iris}
-#| fig.cap = "*Iris sanguinea* in late bloom.",
+#| fig.cap = "Iris sanguinea in late bloom.",
 #| out.width = "50%",
 #| fig.align = "center",
 #| fig.show="hold"
@@ -136,7 +143,7 @@ knitr::include_graphics("irissan.jpg")
 
 *Iris sanguinea* is native to eastern Asia, hence the common names, but have since been naturalized to temperate regions across the globe. Many plants of this genus are poisonous if ingested, especially the roots, as such they are resistant to deer and rabbits. Iris can grow in virtually every hardiness region of the U.S. but particularly enjoys deep meadows, near riparian areas, and on forest edges. The soils for this plant should be well draining, with slight acidity and plenty of organic matter. It prefers full sun but is tolerant of partial shade. It flowers between May and July, producing blue, white, or purple-lavendar showy blooms. The flower goes to seed in July through September following flower blooms. The seeds, themselves, are ellipsoidal capsules with with flat seeds. [@iris; @iris2]
 
-Further reading; [*Iris sanguinea*](https://plants.ces.ncsu.edu/plants/iris-sanguinea/),
+Further reading; [Iris sanguinea](https://plants.ces.ncsu.edu/plants/iris-sanguinea/),
 [Iris sanguinea - Donn. ex Hornem.](https://pfaf.org/user/Plant.aspx?LatinName=Iris+sanguinea)
 
 \newpage
@@ -146,7 +153,7 @@ Further reading; [*Iris sanguinea*](https://plants.ces.ncsu.edu/plants/iris-sang
 ## Common names; Calico bush, Ivy bush, Laurel, Mountain ivy, Mountain laurel, Sheepkill, and Spoonwood
 
 ```{r kalmia}
-#| fig.cap = "*Kalmia latifolia* bark (top), pink flowers in bloom (bottom).",
+#| fig.cap = "Kalmia latifolia bark (top), pink flowers in bloom (bottom).",
 #| out.width = "50%",
 #| fig.align = "center",
 #| fig.show="hold"
@@ -160,7 +167,7 @@ knitr::include_graphics("kalmlat.jpg")
 
 *Kalmia latifolia* is a broadleaf evergreen shrub that often branches into a thicket and sometimes as a small tree with a crooked trunk. Laurel flowers in late April to July for several weeks in a range of colors from pink or purple/lavender to white. Each flower is cup-shaped with 4-5 petals and begin fruiting in Fall. Fruits are capsules that are brown or copper in color and present from September to October. Laurel is highly poisonous affecting skeletal muscle and cardiac muscle function, as well as nerve function. Laurel is commonly mistaken for *Rhododendron spp.* due to similar leaf structure, laurel has smaller leaves and rhododendron have larger leaves. Likewise, as laurel ages the bark begins to peel off in long strips. The two are otherwise similar in growth requirements, i.e. full sun or partial shade, acidic soils with good drainage and high organic matter. [@kal; @kal2; @kal3]
 
-Further reading; [*Kalmia latifolia*](https://www.wildflower.org/plants/result.php?id_plant=KALA), [WILDFLOWERS 101: MOUNTAIN LAUREL AND RHODODENDRON](https://www.smokiesinformation.org/news/wildflowers-101-mountain-laurel-and-rhododendron.html#:~:text=The%20laurel%20has%20the%20smaller,leaves%20droop%20and%20curl%20back.), [*Kalmia latifolia*](https://plants.ces.ncsu.edu/plants/kalmia-latifolia/)
+Further reading; [Kalmia latifolia](https://www.wildflower.org/plants/result.php?id_plant=KALA), [WILDFLOWERS 101: MOUNTAIN LAUREL AND RHODODENDRON](https://www.smokiesinformation.org/news/wildflowers-101-mountain-laurel-and-rhododendron.html#:~:text=The%20laurel%20has%20the%20smaller,leaves%20droop%20and%20curl%20back.), [Kalmia latifolia](https://plants.ces.ncsu.edu/plants/kalmia-latifolia/)
 
 \newpage
 
@@ -169,7 +176,7 @@ Further reading; [*Kalmia latifolia*](https://www.wildflower.org/plants/result.p
 ## Common names; Chicken-of-the-woods, Chicken fungus, Chicken mushroom, Crab-of-the-woods, Sulphur polypore, and Sulphur shelf
 
 ```{r chicken}
-#| fig.cap = "*Laetiporous sulphureus* ripe for harvesting.",
+#| fig.cap = "Laetiporous sulphureus ripe for harvesting.",
 #| out.width = "50%",
 #| fig.align = "center"
 
@@ -189,7 +196,7 @@ Further reading; [Laetiporus sulphureus (Bull.) Murrill - Chicken-of-the-Woods](
 ## Common names; Blue-poplar, Tulip-poplar, Tulip tree, Yellow-poplar, Yellow wood
 
 ```{r tulippop}
-#| fig.cap = "*Liriodendron tulipifera* leaves in a sun fleck (top), floral bloom (bottom).",
+#| fig.cap = "Liriodendron tulipifera leaves in a sun fleck (top), floral bloom (bottom).",
 #| out.width = "50%",
 #| fig.align = "center",
 #| fig.show="hold"
@@ -211,7 +218,7 @@ Further reading; [Liriodendron tulipifera](https://plants.ces.ncsu.edu/plants/li
 ## Common names; Indian Pipe and Ghost Plant
 
 ```{r uniflora}
-#| fig.cap = "*Monotropa uniflora* flowers.",
+#| fig.cap = "Monotropa uniflora flowers.",
 #| out.width = "50%",
 #| fig.align = "center"
 
@@ -220,7 +227,7 @@ knitr::include_graphics("M uniflora.jpg")
 
 *Monotropa uniflora* is a perennial wildflower that grows to height between 10 and 30 cm. *M uniflora* blooms in early summer through early autumn in mature, moist, shaded forests. This plant is entirely translucent white while sometimes appearing in a pale pinkish-hue. This is because the plant is parasitic in nature and obtains its nutrients from photosynthetic trees (commonly Beech; *Fagus sp.*) connected via fungal mycorrhizal networks. The leaves that arise directly from the peduncle (flower stalk) are scale-like and can be flecked black. As the name suggests - uniflora - this plant has single-flowers that emerge as pendants (pointed downward). Once the flower matures it erects perpendicular to the stalk. The fruits are capsules with seeds that release through slits along the length of the capsule. The flowers can persist following seed dispersal however the flesh may become desiccated and look brown or black. [@uniflora]
  
-Further reading; [*Monotropa uniflora* - Ghost Plant, Indian Pipe](https://www.fs.fed.us/wildflowers/beauty/mycotrophic/monotropa_uniflora.shtml)
+Further reading; [Monotropa uniflora - Ghost Plant, Indian Pipe](https://www.fs.fed.us/wildflowers/beauty/mycotrophic/monotropa_uniflora.shtml)
 
 \newpage
 
@@ -229,7 +236,7 @@ Further reading; [*Monotropa uniflora* - Ghost Plant, Indian Pipe](https://www.f
 ## Common names; Fiddlehead fern, Ostrich-feather fern, Ostrich fern, and Shuttlecock fern
 
 ```{r shutfern}
-#| fig.cap = "*Onoclea struthiopteris* fronds.",
+#| fig.cap = "Onoclea struthiopteris fronds.",
 #| out.width = "50%",
 #| fig.align = "center"
 
@@ -239,8 +246,8 @@ knitr::include_graphics("fern.jpg")
 
 *Onoclea struthiopteris* is a perennial and deciduous fern often found in moist areas, in thickets, and in the understory of trees. Ostrich fern prefers partial to full shade, but will tolerate full sun with moist soils and cool temperatures. This plant is resistant to browsing by deer but the emerging fiddleheads are otherwise edible. It has the potential to prevent erosion due to its rhizomatous colonization of the topsoil. Caution should be taken if planting in small spaces as it can spread aggressively. [@fern; @fern2]
 
-Futher reading; [*Matteuccia struthiopteris*](https://www.wildflower.org/plants/result.php?id_plant=MAST) (although a different latin name, this is synonymous with *O. struthiopteris*),
-[*Onoclea struthiopteris*](https://plants.ces.ncsu.edu/plants/onoclea-struthiopteris/)
+Futher reading; [Matteuccia struthiopteris](https://www.wildflower.org/plants/result.php?id_plant=MAST) (although a different latin name, this is synonymous with *O. struthiopteris*),
+[Onoclea struthiopteris](https://plants.ces.ncsu.edu/plants/onoclea-struthiopteris/)
 
 \newpage
 
@@ -249,7 +256,7 @@ Futher reading; [*Matteuccia struthiopteris*](https://www.wildflower.org/plants/
 ## Common names; Noonday globe 
 
 ```{r snaily}
-#| fig.cap = "*Patera clarki nantahala* ascending a trail post.",
+#| fig.cap = "Patera clarki nantahala ascending a trail post.",
 #| out.width = "50%",
 #| fig.align = "center"
 
@@ -266,7 +273,7 @@ knitr::include_graphics("snail.jpg")
 ## Common names; Arkansas soft pine, Old field pine, Shortleaf pine, Shortleaf yellow pine, Shortstraw pine, Southern yellow pine, and Yellow pine
 
 ```{r shpine}
-#| fig.cap = "Close-up of Short pine needles (top), female seed cone (middle), male pollen cone (bottom). Cone photos courtesy of LSU School of Renewable Natural Resources [@peccone].",
+#| fig.cap = "Close-up of Pinus echinata needles (top), female seed cone (middle), male pollen cone (bottom). Cone photos courtesy of LSU School of Renewable Natural Resources [@peccone].",
 #| out.width="50%",
 #| fig.align="center",
 #| fig.show="hold"
@@ -281,7 +288,7 @@ knitr::include_graphics("pinecma.jpg")
 
 *Pinus echinata* is an evergreen conifer that is native to the southeastern U.S. and is considered one of the hardiest and most adaptable of the southern pines. The limbs will branch out forming a pyramidal crown (wide base to a fine pointed apex) that broadens with age. This tree can grow up to 100 feet tall, with fascicles of 2 or 3 needles between 3 and 5 inches in length. Male trees will produce pale purple cones, while female trees will produce pale pink cones. This pine will grow best in full sun, in well-draining, average wetness, and sandy loam soils. It is also an important timber tree in its more southern range, providing wood for general lumbar, plywood, paper pulp, and turpentine. [@pinec; @pinec2]
 
-Further reading; [*Pinus echinata* (Shortleaf Pine)](https://www.gardenia.net/plant/pinus-echinata), [*Pinus echinata*](https://plants.ces.ncsu.edu/plants/pinus-echinata/)
+Further reading; [Pinus echinata (Shortleaf Pine)](https://www.gardenia.net/plant/pinus-echinata), [Pinus echinata](https://plants.ces.ncsu.edu/plants/pinus-echinata/)
 
 \newpage
 
@@ -290,7 +297,7 @@ Further reading; [*Pinus echinata* (Shortleaf Pine)](https://www.gardenia.net/pl
 ## Common names; Pitch pine
 
 ```{r rigida, echo=FALSE}
-#| fig.cap = "*Pinus rigida* bark (top). Cone life stages (bottom), photo courtesy of C. N. Elliot.",
+#| fig.cap = "Pinus rigida bark (top). Cone life stages (bottom), photo courtesy of C. N. Elliot.",
 #| out.width = "50%",
 #| fig.align = "center",
 #| fig.show="hold"
@@ -305,7 +312,7 @@ knitr::include_graphics("pitch pine cones.png")
 
 *Pinus rigida* is mainly found in the southern areas of the northeastern United States. These trees are found in environments other species may find unfavorable (i.e. acidic, sandy, and low nutrient soils). The needles of this tree come in fascicles of three, grow to a length of 2 1/4 to 5 inches, and are often slightly twisted. The cones of this tree are serotinous, meaning, they need to be exposed to an internal temperature of 212°F before opening to release seeds. The thick bark provides an adaptation against fire by insulating the sensitive cambium layer from heat and can survive external temperatures as high as 790°F.  It also has a remarkable regenerative ability, should it be damaged by cuts or fire, it can resprout using epicormic shoots (growing from the bark). The trunks of pitch pine are usually straight and covered in large, thick, irregular plates of bark. Pitch pine is a pioneer species in abandoned agricultural or pasture land and is replaced by hardwoods, spruce, or other pines in the absence of disturbance. [@rigida]
 
-Further reading; [*Pinus rigida*](https://www.fs.fed.us/database/feis/plants/tree/pinrig/all.html#Cone%20survival%20and%20seedling%20establishment:)
+Further reading; [Pinus rigida](https://www.fs.fed.us/database/feis/plants/tree/pinrig/all.html#Cone%20survival%20and%20seedling%20establishment:)
 
 \newpage
 
@@ -314,7 +321,7 @@ Further reading; [*Pinus rigida*](https://www.fs.fed.us/database/feis/plants/tre
 ## Common names; English Oak, Oak, and Truffle Oak
 
 ```{r engoak}
-#| fig.cap = "*Quercus robur* sapling.",
+#| fig.cap = "Quercus robur sapling.",
 #| out.width = "50%",
 #| fig.align = "center"
 
@@ -324,7 +331,7 @@ knitr::include_graphics("english.jpg")
 
 *Quercus robur* is not native to North America rather it was introduced from western Asia and Europe in the 1600s as a lumber tree for furniture and shipbuilding. This tree prefers average wet and well-draining soil in full sun, but will tolerate a wide range of conditions and soil types. The lobed leaves are a rich blue-green and reddish-brown in fall. Yellow-green catkins appear with new foliage in the spring. The acorns are oblong and provide an important food source for small mammals and birds, however it could take 20 years before the tree produces acorns. [@engoak; @eng2 ]
 
-Further reading; [*Quercus robur* (English Oak)](https://www.gardenia.net/plant/quercus-robur), [*Quercus robur*](https://plants.ces.ncsu.edu/plants/quercus-robur/)
+Further reading; [Quercus robur (English Oak)](https://www.gardenia.net/plant/quercus-robur), [Quercus robur](https://plants.ces.ncsu.edu/plants/quercus-robur/)
 
 \newpage
 
@@ -333,7 +340,7 @@ Further reading; [*Quercus robur* (English Oak)](https://www.gardenia.net/plant/
 ## Common names; Common red oak, Gray oak, Eastern red oak, Mountain red oak, Northern red oak, and Red oak
 
 ```{r redoaks}
-#| fig.cap = "*Quercus rubra* sapling.",
+#| fig.cap = "Quercus rubra sapling.",
 #| out.width = "50%",
 #| fig.align = "center",
 #| fig.show="hold"
@@ -344,7 +351,7 @@ knitr::include_graphics("redoak1.jpg")
 
 *Quercus rubra* is a  deciduous tree that  commonly reaches heights of 75 to 100 feet with a straight trunk and wide canopy (about 45 feet wide) on the upper 3/4ths of the tree. The bark is striped with long plates separated by deep furrows. The lobbed leaves are bristled at the tip and turn crimson, golden-orange, or russet colored in the Fall. This oak is very important lumber tree, as it is one of the fastest-growing (~24"/year), is easily transplanted, and endures both the cold and city conditions. This is a handsome tree for wildlife as it attracts songbirds, ground-nesting birds, butterflies, hummingbirds, and is a larval host for the Gray Hairstreak (*Strymon melinus*). As new foliage begins to grow, pale yellow-green blooms are not far off, usually April to May. [@redoak; @red2]
 
-Further reading; [Northern Red Oak](https://www.srs.fs.usda.gov/pubs/misc/ag_654/volume_2/quercus/rubra.htm), [*Quercus rubra*](https://www.wildflower.org/plants/result.php?id_plant=quru)
+Further reading; [Northern Red Oak](https://www.srs.fs.usda.gov/pubs/misc/ag_654/volume_2/quercus/rubra.htm), [Quercus rubra](https://www.wildflower.org/plants/result.php?id_plant=quru)
 
 \newpage
 

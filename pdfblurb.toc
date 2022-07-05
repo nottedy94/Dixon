@@ -1,0 +1,31 @@
+\contentsline {section}{\emph {Acer rubrum}}{3}{section*.2}%
+\contentsline {subsection}{Common names; Carolina maple, Curled maple, Red maple, Scarlet maple, Soft maple, Swamp maple, and Water maple}{3}{section*.3}%
+\contentsline {section}{\emph {Castanea dentata}}{4}{section*.4}%
+\contentsline {subsection}{Common names; American Chestnut and Chestnut}{4}{section*.5}%
+\contentsline {section}{\emph {Galax unceolata}}{5}{section*.6}%
+\contentsline {subsection}{Common names; Wandflower, Wandplant, and Beetleweed.}{5}{section*.7}%
+\contentsline {section}{\emph {Gaylussacia spp.}}{6}{section*.8}%
+\contentsline {subsection}{Common names; Huckleberry and Dangleberry}{6}{section*.9}%
+\contentsline {section}{\emph {Iris sanguinea}}{7}{section*.10}%
+\contentsline {subsection}{Common names; Japanese Iris and Siberian Iris}{7}{section*.11}%
+\contentsline {section}{\emph {Kalmia latifolia}}{8}{section*.12}%
+\contentsline {subsection}{Common names; Calico bush, Ivy bush, Laurel, Mountain ivy, Mountain laurel, Sheepkill, and Spoonwood}{8}{section*.13}%
+\contentsline {section}{\emph {Laetiporous sulphureus}}{9}{section*.14}%
+\contentsline {subsection}{Common names; Chicken-of-the-woods, Chicken fungus, Chicken mushroom, Crab-of-the-woods, Sulphur polypore, and Sulphur shelf}{9}{section*.15}%
+\contentsline {section}{\emph {Liriodendron tulipifera}}{10}{section*.16}%
+\contentsline {subsection}{Common names; Blue-poplar, Tulip-poplar, Tulip tree, Yellow-poplar, Yellow wood}{10}{section*.17}%
+\contentsline {section}{\emph {Monotropa uniflora}}{11}{section*.18}%
+\contentsline {subsection}{Common names; Indian Pipe and Ghost Plant}{11}{section*.19}%
+\contentsline {section}{\emph {Onoclea struthiopteris}}{12}{section*.20}%
+\contentsline {subsection}{Common names; Fiddlehead fern, Ostrich-feather fern, Ostrich fern, and Shuttlecock fern}{12}{section*.21}%
+\contentsline {section}{\emph {Patera clarki nantahala}}{13}{section*.22}%
+\contentsline {subsection}{Common names; Noonday globe}{13}{section*.23}%
+\contentsline {section}{\emph {Pinus echinata}}{14}{section*.24}%
+\contentsline {subsection}{Common names; Arkansas soft pine, Old field pine, Shortleaf pine, Shortleaf yellow pine, Shortstraw pine, Southern yellow pine, and Yellow pine}{14}{section*.25}%
+\contentsline {section}{\emph {Pinus rigida}}{16}{section*.26}%
+\contentsline {subsection}{Common names; Pitch pine}{16}{section*.27}%
+\contentsline {section}{\emph {Quercus robur}}{17}{section*.28}%
+\contentsline {subsection}{Common names; English Oak, Oak, and Truffle Oak}{17}{section*.29}%
+\contentsline {section}{\emph {Quercus rubra}}{18}{section*.30}%
+\contentsline {subsection}{Common names; Common red oak, Gray oak, Eastern red oak, Mountain red oak, Northern red oak, and Red oak}{18}{section*.31}%
+\contentsline {section}{References}{19}{section*.32}%
